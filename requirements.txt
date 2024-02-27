@@ -1,2 +1,5 @@
-python=3.10.12
+python==3.10.12
 Flask
+pytorch==2.1.0
+torchvision==0.16.0
+torchaudio==2.1.0
