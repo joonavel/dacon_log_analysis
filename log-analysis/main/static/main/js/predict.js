@@ -13,7 +13,7 @@ function submitLogData() {
     })
     .then(response => response.json())
     .then(data => {
-        document.getElementById('predictionResult').innerText = 'Prediction: ' + data.result;
+        document.getElementById('predictionResult').innerText = 'Prediction: ' + data.prediction;
     })
     .catch((error) => {
         console.error('Error:', error);
